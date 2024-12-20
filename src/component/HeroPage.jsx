@@ -18,27 +18,25 @@ const HeroPage = () => {
             <div className="col-lg-6">
               <div className="text-container">
                 <h1 className="h1-large">
-                Mouth Throne Group Excellence Across Industries
+                  Mouth Throne Group Excellence Across Industries
                 </h1>
-                <Link className="btn-solid-lg page-scroll text-decoration-none" href="#about">
+                <Link
+                  className="btn-solid-lg page-scroll text-decoration-none"
+                  href="#about"
+                >
                   Discover
                 </Link>
-                <Link className="btn-outline-lg page-scroll text-decoration-none" href="#contact">
-                <IoMdContact/> Contact Me
+                <Link
+                  className="btn-outline-lg page-scroll text-decoration-none"
+                  href="#contact"
+                >
+                  <IoMdContact /> Contact Me
                 </Link>
               </div>
             </div>
           </div>
         </div>
       </header>
-      <div>
-        <About/>
-        <Workwithus/>
-        <DeliveredProjectPage/>
-        <Comment/>
-        <Contact/>
-        <Footer/>
-      </div>
     </div>
   );
 };

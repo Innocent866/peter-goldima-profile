@@ -23,7 +23,7 @@ const Comment = () => {
                   <h4>{item.name}</h4>
                 </div>
               </div>
-              <div className="d-lg-none">
+              <div className="d-lg-none d-md-none">
                 <hr />
               </div>
             </div>

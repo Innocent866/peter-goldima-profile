@@ -13,15 +13,15 @@ const Contact = () => {
         <form action="" className="form">
           <div className="form-field-div">
             <input type="text" id="name"/>
-            <label htmlFor="" for="name">Name</label>
+            <label htmlFor="name">Name</label>
           </div>
           <div className="form-field-div">
             <input type="email" id="email"/>
-            <label htmlFor="" for="email">Email</label>
+            <label htmlFor="email">Email</label>
           </div>
           <div className="form-field-div">
           <textarea name="" id="message"></textarea>
-          <label htmlFor=""  for="message">Message</label>
+          <label htmlFor="message">Message</label>
           </div>
           <div>
             <button className="button">Send Message....</button>
