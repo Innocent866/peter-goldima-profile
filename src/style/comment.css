@@ -64,6 +64,7 @@
     .comment-col-cart{
         grid-template-columns: repeat(3, 1fr);
         justify-content: space-between;
+        align-items: end;
     }
 
     .comment-image{
@@ -75,6 +76,7 @@
         flex-direction: row;
         align-items: end;
         gap: 10px;
+        border: none;
     }
 
     .comment-text{
