@@ -1,0 +1,30 @@
+.workwithus-us-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    /* margin:  1rem; */
+}
+.workwithus-us{
+    border: 3px solid rgb(15, 15, 15);
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 2s;
+}
+
+.workwithus-us:hover{
+    transform: scaleX(1.1);
+}
+
+.workwithus-background{
+    background-color: #f7f9fb;
+    padding: 0.5rem 0;
+}
+
+@media screen and (min-width:760px) {
+    .workwithus-us-container{
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
+

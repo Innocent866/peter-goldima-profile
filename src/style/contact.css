@@ -1,0 +1,75 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-field-div{
+    position: relative;
+}
+
+.form-field-div label{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    color: rgb(123, 123, 123);
+    transition: all .5s;
+}
+
+.form-field-div input{
+    width: 100%;
+    padding: 20px 5px 5px;
+    margin-bottom: 30px;
+    outline: none;
+    border: .5px solid rgb(141, 141, 141);
+    border-radius: 5px;
+
+}
+.form-field-div textarea{
+    width: 100%;
+    padding: 20px 5px 5px;
+    margin-bottom: 30px;
+    outline: none;
+    border: .5px solid rgb(141, 141, 141);
+    border-radius: 5px;
+    height: 40vh;
+}
+
+.form-field-div input:focus ~ label{
+    top: -2px;
+    color: black;
+    font-size: 15px;
+}
+.form-field-div textarea:focus ~ label{
+    top: -2px;
+    color: black;
+    font-size: 15px;
+}
+
+.button{
+    width: 100%;
+    font-size: large;
+    border: none;
+    border-radius: 40px;
+    background-color: #0b36a8;
+    color: white;
+    padding: 17px;
+    transition: all .5s;
+}
+.button:hover{
+    color: #0b36a8;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.button:active{
+    background-color: #3459bd;
+}
+
+@media screen and (min-width: 760px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+}
