@@ -2,16 +2,14 @@ import React from "react";
 import "../style/hero.css";
 import { Link } from "react-router-dom";
 import { IoMdContact } from "react-icons/io";
-import About from "./AboutPage";
-import Workwithus from "./Workwithus";
-import DeliveredProjectPage from "./DeliveredProjectPage";
-import Comment from "./Comment";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import Workwithus from "../component/Workwithus";
+import DeliveredProjectPage from "../component/DeliveredProjectPage";
+import Comment from "../component/Comment";
+
 
 const HeroPage = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "#f7f9fb" }}>
       <header id="header" className="header">
         <div className="container">
           <div className="row">
@@ -22,13 +20,13 @@ const HeroPage = () => {
                 </h1>
                 <Link
                   className="btn-solid-lg page-scroll text-decoration-none"
-                  href="#about"
+                  to="/about"
                 >
                   Discover
                 </Link>
                 <Link
                   className="btn-outline-lg page-scroll text-decoration-none"
-                  href="#contact"
+                  to="/contact"
                 >
                   <IoMdContact /> Contact Me
                 </Link>
@@ -37,6 +35,9 @@ const HeroPage = () => {
           </div>
         </div>
       </header>
+      <Workwithus/>
+      <DeliveredProjectPage/>
+      <Comment/>
     </div>
   );
 };

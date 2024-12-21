@@ -1,13 +1,7 @@
 import React from "react";
 import "../style/navbar.css";
 import Canvas from "./Canvas";
-import HeroPage from "./HeroPage";
-import About from "./AboutPage";
-import Workwithus from "./Workwithus";
-import Comment from "./Comment";
-import Contact from "./Contact";
-import Footer from "./Footer";
-import DeliveredProjectPage from "./DeliveredProjectPage";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -15,10 +9,10 @@ const Navbar = () => {
       {/* Navigation Bar */}
       <nav className="nav-main-div">
         <div className="container nav">
-          <div>
+          <Link to="/">
             {/* Logo */}
             <img src="path-to-logo.png" alt="LOGO" />
-          </div>
+          </Link>
           <div>
             {/* Responsive Canvas */}
             <div className="d-lg-none d-md-none">
@@ -26,42 +20,23 @@ const Navbar = () => {
             </div>
             <ul className="nav-ul">
               <li>
-                <a href="#home">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="#about">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a href="#services">Services</a>
+                <Link to="#services">Services</Link>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-      {/* Page Content */}
-      <main>
-        <section id="home">
-          <HeroPage />
-        </section>
-        <section id="about">
-          <About />
-        </section>
-        <section id="services">
-          <Workwithus />
-          <DeliveredProjectPage />
-        </section>
-        <section id="comments">
-          <Comment />
-        </section>
-        <section id="contact">
-          <Contact />
-        </section>
-        <Footer />
-      </main>
+      
     </>
   );
 };

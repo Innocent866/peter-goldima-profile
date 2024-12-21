@@ -1,3 +1,12 @@
+.contact-title{
+    padding: 50px;
+    border-radius: 0 0 50000px/100000px  ;
+    color: white;
+    margin-bottom: 4rem;
+    background-color: #24262a;
+    border-bottom: 10px solid rgb(145, 145, 145);
+}
+
 .form{
     display: flex;
     flex-direction: column;

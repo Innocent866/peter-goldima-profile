@@ -22,6 +22,7 @@
     transition: all .5s;
 }
 .footer-image:hover{
+    transform: rotateZ(360deg);
     display: flex;
     align-items: center;
     justify-content: center;

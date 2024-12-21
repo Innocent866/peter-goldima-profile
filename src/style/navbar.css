@@ -1,6 +1,10 @@
 .nav-main-div {
-  background-color: #333;
-  box-shadow: 10px 10px 10px 10px grey;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  /* opacity: 0.5; */
+  background-color: #24262a;
+  /* box-shadow: 10px 10px 10px 10px rgb(61, 61, 61); */
 }
 .nav {
   display: flex;

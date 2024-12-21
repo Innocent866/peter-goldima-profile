@@ -31,7 +31,7 @@ const Footer = () => {
         <h4 className="text-center mt-5 mb-3 text-white">Easy Contact</h4>
         <div>
           <Link
-            to="mailto:pgoldima@gmail.com"
+            to="mailto:pgoldima@yahoo.com"
             target="blank"
             className="d-flex align-items-center justify-content-center"
           >
