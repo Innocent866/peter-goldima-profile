@@ -17,9 +17,17 @@
     color: white;
     background-color: #0b36a8;
     padding: 17px;
-    /* width: 4%; */
-    /* height: 50%; */
     font-size: 1.7rem;
     border-radius: 40px;
-    /* text-align: center; */
+    transition: all .5s;
+}
+.footer-image:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0b36a8;
+    background-color: white;
+    padding: 17px;
+    font-size: 1.7rem;
+    border-radius: 40px;
 }
