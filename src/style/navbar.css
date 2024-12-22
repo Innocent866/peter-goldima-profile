@@ -5,12 +5,13 @@
   /* opacity: 0.5; */
   background-color: #24262a;
   /* box-shadow: 10px 10px 10px 10px rgb(61, 61, 61); */
+  
 }
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0px 10px 0px; 
+  padding: 15px 0px 10px 0px; 
   color: white;
   font-size: larger;
 }
@@ -22,19 +23,19 @@
 @media screen and (min-width: 760px) {
   .nav-ul {
     display: flex;
-    /* gap: 40px; */
+    gap: 10px;
     list-style: none;
   }
 
   .nav-ul li a {
     text-decoration: none;
     color: white;
-    padding: 30px;
+    padding: 28px 30px;
     transition: all 0.6s;
   }
 
   .nav-ul li a:hover {
-    background-color: #0b36a8; /* Changes color smoothly on hover */
+    background-color: #0b36a8;
     transform: scale(1.1);
   }
 }

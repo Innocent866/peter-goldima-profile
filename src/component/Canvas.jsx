@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
+import "../style/canvas.css";
 
 const Canvas = () => {
   const [show, setShow] = useState(false);
@@ -19,7 +20,7 @@ const Canvas = () => {
       >
         <GiHamburgerMenu />
       </Button>
-      <Offcanvas show={show} onHide={handleClose} className="bg-dark">
+      <Offcanvas show={show} onHide={handleClose} className="bg-dark w-50">
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>
             <div>
@@ -28,26 +29,17 @@ const Canvas = () => {
           </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <ul className="list-unstyled d-flex flex-column gap-5">
-            <li>
-              <Link className="text-decoration-none text-white p-5 ">Home</Link>
-            </li>
-            <li>
-              <Link className="text-decoration-none text-white p-5 ">
-                About
-              </Link>
-            </li>
-            <li>
-              <Link className="text-decoration-none text-white p-5 ">
-                Service
-              </Link>
-            </li>
-            <li>
-              <Link className="text-decoration-none text-white p-5 ">
-                Contact
-              </Link>
-            </li>
-          </ul>
+          <div className="canvas-ul">
+            <Link to="/" className="canvas-link">Home</Link>
+            <Link to="/about" className="canvas-link">About</Link>
+            <Link to="/contact" className="canvas-link">Contact</Link>
+          </div>
+          <div className="text-center text-white mt-5 d-flex flex-column gap-1">
+            <hr />
+            <p>Mouth Throne Limited Homes & Properties</p>
+            <p>Mouth Throne Foods</p>
+            <hr />
+          </div>
         </Offcanvas.Body>
       </Offcanvas>
     </>

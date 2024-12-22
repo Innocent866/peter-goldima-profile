@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       {/* Navigation Bar */}
       <nav className="nav-main-div">
-        <div className="container nav">
+        <div className="container nav pe-5">
           <Link to="/">
             {/* Logo */}
             <img src="path-to-logo.png" alt="LOGO" />
@@ -24,9 +24,6 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to="/about">About</Link>
-              </li>
-              <li>
-                <Link to="#services">Services</Link>
               </li>
               <li>
                 <Link to="/contact">Contact</Link>

@@ -19,7 +19,7 @@
     padding: 17px;
     font-size: 1.7rem;
     border-radius: 40px;
-    transition: all .5s;
+    transition: all 1s;
 }
 .footer-image:hover{
     transform: rotateZ(360deg);

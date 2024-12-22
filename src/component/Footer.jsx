@@ -37,7 +37,7 @@ const Footer = () => {
           >
             pgoldima@yahoo.com
           </Link>
-          <Link to="tel:08184204450" className="d-flex text-white my-4 align-items-center justify-content-center">
+          <Link to="tel:08184204450" className="d-flex my-4 align-items-center justify-content-center">
             08184204450
           </Link>
         </div>

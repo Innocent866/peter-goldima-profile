@@ -25,6 +25,12 @@
 
 .about-btn{
     border: none;
+    
+}
+
+.about-btn a{
+    width: 100%;
+    border: none;
     border-radius: 10px;
     background-color: #0b36a8;
     color: white;
@@ -32,11 +38,10 @@
     transition: all .5s;
 }
 
-.about-btn:hover{
+.about-btn a:hover{
     border: none;
     border-radius: 10px;
-    background-color:  white;
-    color: #0b36a8;
+    background-color: #3a5293;
     padding: 16px 32px;
 }
 

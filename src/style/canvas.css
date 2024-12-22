@@ -1,0 +1,20 @@
+.canvas-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    list-style: none;
+    width: 100%;
+}
+
+.canvas-link{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    transition: all .5s;
+}
+.canvas-link:hover{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(175, 175, 175);
+    padding: 1rem;
+}

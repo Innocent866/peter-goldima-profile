@@ -45,7 +45,7 @@ const Contact = () => {
       <div className="contact-title">
         <h1 className="text-center fw-bold p-5">CONTACT DETAILS</h1>
       </div>
-      <div className="d-flex justify-content-center pb-5 align-items-center">
+      <div className="container d-flex justify-content-center pb-5 align-items-center">
         <form action="" onSubmit={handleSubmit} className="form">
           <div className="form-field-div">
             <input

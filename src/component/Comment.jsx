@@ -4,7 +4,7 @@ import "../style/comment.css";
 
 const Comment = () => {
   return (
-    <div className="container my-5">
+    <div className="container py-5">
       <div className="d-flex justify-content-center">
         <h1 className="text-center mb-5 comment-title">
           A few words from people that choose to work with me

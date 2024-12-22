@@ -24,8 +24,8 @@ const DeliveredProjectPage = () => {
            <img src={img1} alt=""/>
            </div>
           <Carousel.Caption>
-            <h1>First slide label</h1>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h1 className="text-dark">First slide label</h1>
+            <p className="text-dark">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -33,8 +33,8 @@ const DeliveredProjectPage = () => {
         <img src={img2} alt=""/>
         </div>
           <Carousel.Caption>
-            <h1>This is an ongoing project</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h1 className="text-dark">This is an ongoing project</h1>
+            <p className="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -42,8 +42,8 @@ const DeliveredProjectPage = () => {
         <img src={img3} alt=""/>
         </div>
           <Carousel.Caption>
-            <h1>Third slide label</h1>
-            <p>
+            <h1 className="text-dark">Third slide label</h1>
+            <p className="text-dark">
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
           </Carousel.Caption>
