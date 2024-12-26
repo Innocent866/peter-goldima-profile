@@ -5,12 +5,13 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import realEstateLogo from "../assets/real-estate_logo_mouth_throne-removebg-preview.png"
 
 const Footer = () => {
   return (
     <div className="footer-container">
       <div className="container py-5">
-        <img src="#" alt="LOGO" />
+        <img src={realEstateLogo} width="100" alt="LOGO" />
         <h4 className="text-center mt-5 mb-3 text-white">
           Social Media Handles
         </h4>
