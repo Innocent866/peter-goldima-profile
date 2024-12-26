@@ -4,6 +4,8 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
 import "../style/canvas.css";
+import realEstateLogo from "../assets/real-estate_logo_mouth_throne-removebg-preview.png"
+
 
 const Canvas = () => {
   const [show, setShow] = useState(false);
@@ -24,7 +26,7 @@ const Canvas = () => {
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>
             <div>
-              <img src="#" alt="LOGO" />
+              <img src={realEstateLogo} width="100" alt="LOGO" />
             </div>
           </Offcanvas.Title>
         </Offcanvas.Header>

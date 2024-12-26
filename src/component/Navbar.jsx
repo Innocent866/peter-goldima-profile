@@ -2,6 +2,7 @@ import React from "react";
 import "../style/navbar.css";
 import Canvas from "./Canvas";
 import { Link } from "react-router-dom";
+import realEstateLogo from "../assets/real-estate_logo_mouth_throne-removebg-preview.png"
 
 const Navbar = () => {
   return (
@@ -9,9 +10,9 @@ const Navbar = () => {
       {/* Navigation Bar */}
       <nav className="nav-main-div">
         <div className="container nav pe-5">
-          <Link to="/">
+          <Link to="/" className="ps-4">
             {/* Logo */}
-            <img src="path-to-logo.png" alt="LOGO" />
+            <img src={realEstateLogo} width="100" alt="LOGO" />
           </Link>
           <div>
             {/* Responsive Canvas */}
